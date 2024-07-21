@@ -36,15 +36,16 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", 13323016))
-	API_HASH = os.environ.get("API_HASH", "13323016")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","6144687436:AAGShuVn551CQHCWjRkdoBIteGgV0SUWxBo")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissRozy_BOT")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1001772120203))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5965340120"))
-	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://lazydeveloperr:lazydeveloperr@Cluster0.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001765107260")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001895607162")
+	API_ID = int(os.environ.get("API_ID", 22225430))
+	API_HASH = os.environ.get("API_HASH", "4c5c28abd62233ef4b993fb972f83262")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","6144687436:7208459499:AAHJuvgmLcfN-Xt5-x_4loyQZVpxxuM3-9M")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "Nova_File_Bot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002237213896))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6039119180"))
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb://jaskaran1230j:4ixC9jGcE6oCw7qT@ac-5j9u7mb-shard-00-00.tsktd4r.mongodb.net:27017,ac-5j9u7mb-shard-00-01.tsktd4r.mongodb.net:27017,ac-5j9u7mb-shard-00-02.tsktd4r.mongodb.net:27017/?ssl=true&replicaSet=atlas-ammy0t-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0
+ ")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001821544841")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002237213896")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -58,11 +59,11 @@ class Config(object):
   # LP_CUSTOM_TEMPLATE= os.environ.get("LP_CUSTOM_TEMPLATE","{file_name} - example \n\n Please Upadate this template acording to you @LazyDeveloperr ")
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
-	AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 20))
+	AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 120000))
 
 	ABOUT_BOT_TEXT = f"""
-ᴛʜɪꜱ ɪꜱ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇ ʙᴏᴛ!
-ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ ɪ ᴡɪʟʟ ꜱᴀᴠᴇ ɪᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ. ᴀʟꜱᴏ ᴡᴏʀᴋꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴄʜᴀɴɴᴇʟ ᴀꜱ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴇᴅɪᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ, ɪ ᴡɪʟʟ ᴀᴅᴅ ꜱᴀᴠᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ꜰɪʟᴇ ɪɴ ᴄʜᴀɴɴᴇʟ & ᴀᴅᴅ ꜱʜᴀʀᴀʙʟᴇ ʙᴜᴛᴛᴏɴ ʟɪɴᴋ.
+ᴛʜɪꜱ ɪꜱ Anime Nova ᴘᴇʀᴍᴀɴᴇɴᴛ ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇ ʙᴏᴛ!
+I am Working For @Jas_Mehra
 
 🤖 **ᴍʏ ɴᴀᴍᴇ:** [ꜰɪʟᴇꜱ ꜱᴛᴏʀᴇ ʙᴏᴛ](https://t.me/{BOT_USERNAME})
 
